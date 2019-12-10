@@ -1,0 +1,25 @@
+<style>
+  table td{
+    padding:10px;
+    border:1px solid #fff;
+  }
+</style>
+<div>
+  <!-- <h2>Title: {{ctrl.panel.text}}</h2>
+  <h3>Sub Title: {{ctrl.panel.subtitle}}</h3> -->
+  <table border='1'>
+    <tbody>
+      <tr>
+        <td>Title:</td>
+        <td>{{ctrl.panel.text}}</td>
+      </tr>
+      <tr>
+        <td>Sub Title:</td>
+        <td>{{ctrl.panel.subtitles}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div ng-repeat="first in ctrl.firstValues">
+    <b>{{first.key}}:</b> {{first.value}}
+  </div>
+</div>
