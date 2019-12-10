@@ -1,0 +1,25 @@
+<div class="editor-row">
+  <div class="section gf-form-group">
+    <h5 class="section-heading">Display</h5>
+    <div class="gf-form">
+      <label class="gf-form-label width-6">Text</label>
+      <input
+        type="text"
+        ng-model="ctrl.panel.text"
+        class="gf-form-input"
+        ng-blur="ctrl.render()"
+        min="1"
+      />
+    </div>
+    <div class="gf-form">
+        <label class="gf-form-label width-6">Sub Title</label>
+        <input
+          type="text"
+          ng-model="ctrl.panel.subtitle"
+          class="gf-form-input"
+          ng-blur="ctrl.render1()"
+          min="1"
+        />
+      </div>
+  </div>
+</div>
